@@ -1,6 +1,8 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
+@import 'bootstrap-sprockets';
+@import 'bootswatch/paper/variables';
+@import 'bootstrap';
+@import 'bootswatch/paper/bootswatch';
+@import 'font-awesome';
 
 // ----------#foundation------------//
-@import "foundation/reset"
+@import 'foundation/reset'
