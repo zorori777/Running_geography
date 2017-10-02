@@ -18,6 +18,8 @@ gem 'webpacker', github: 'rails/webpacker'
 
 # front
 gem 'bootstrap-sass'
+gem 'bootswatch-rails'
+gem 'font-awesome-rails'
 gem 'jquery-rails'
 gem 'slim-rails'
 gem 'html2slim'
