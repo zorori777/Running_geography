@@ -6,7 +6,8 @@ nav.navbar.navbar-default
     .collapse.navbar-collapse.navbar-ex1-collapse
       ul.nav.navbar-nav.navbar-right.u-mt_10.u-fs_24
         li
-          i.fa.fa-search.u-pr_20
+          i.fa.fa-search.u-pr_20#modal_search
+          = render 'shared/modal'
         li.dropdown
           i.fa.fa-user.dropdown-toggle[href="#" data-toggle="dropdown" role="button" aria-expanded="false"]
           ul.dropdown-menu[role="menu"]
