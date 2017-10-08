@@ -20,6 +20,8 @@ services:
       - DATABASE_URL=mysql2://db
     depends_on:
       - db
+    tty: true
+    stdin_open: true
 
 volumes:
   db-data:
