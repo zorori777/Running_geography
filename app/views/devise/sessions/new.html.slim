@@ -1,0 +1,16 @@
+.h2.u-tc ログインページ
+.container
+  .row
+    .col-6
+    = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+      .form-group
+        .control-label[for="inputDefault"]
+          = f.label :emails
+          = f.email_field :email, autofocus: true, class: "form-control", id: "inputDefault"
+
+        .control-label[for="inputDefault"]
+          = f.label :password
+          = f.password_field :password, autocomplete: "off", class: "form-control", id: "inputDefault"
+
+        .col-lg-10.col-lg-offset-5.u-mt_10
+          = f.submit 'ログイン', class: 'btn btn-primary'
